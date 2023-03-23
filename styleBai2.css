@@ -1,0 +1,33 @@
+.main{
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
+.addPlayer{
+    text-align: center;
+    padding-top: 20px;
+    width: 700px;
+    height: 90px;
+    background-color: crimson;  
+}
+#name{
+    width: 500px;
+    height: 50px;
+}
+.stopwatch{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#table{
+    width: 700px;
+    text-align: center;
+    background-color: antiquewhite;
+}

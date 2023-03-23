@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleBai1.css">  
+</head>
+<body>
+    <div class="title">Feedback TA</div>
+    <div class="main">
+        <h3>Đánh giá thầy Phú</h3>
+        <div class="button">
+            <div><button onclick="buttonPoint()" class="buttonPoint">1</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">2</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">3</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">4</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">5</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">6</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">7</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">7</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">8</button></div>
+            <div><button onclick="buttonPoint()" class="buttonPoint">9</button></div>
+        </div>
+        <div class="inputReview">
+            <input id="input" type="text" placeholder="Write a review">
+            <button onclick="addReview()">send</button>
+        </div>
+    </div>
+    <div class="avegare">
+        <div><span id="review">0</span>:review</div>
+        <div>Avegare Rating:<span id="rating">0</span></div>
+    </div>
+    <div>
+        <table id="table"></table>
+    </div>
+</body>
+<script src="./jsBai1.js"></script>
+</html>

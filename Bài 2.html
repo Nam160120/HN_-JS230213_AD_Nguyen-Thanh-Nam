@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleBai2.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <header class="header" id="headerInput">
+                <div class="playerPoint">
+                    <div>Player:</div>
+                    <div>Total Points:</div>
+                </div>
+            </header>
+            <div class="mainTitle">
+                <h2>Rikkei Scoreboard</h2>
+            </div>
+            <div class="stopwatch">
+                <div>Stopwatch</div>
+                <div>
+                  <p><span id="timer">0</span></p>
+                </div>
+                <button onclick="start()">START</button>
+                <button onclick="reset()">RESET</button>
+              </div>
+        </div>
+        <div class="addTable">
+            <table id="table"></table>
+        </div>
+        <div class="addPlayer">
+            <input type="text" name="" id="name" placeholder="Nhập tên người chơi">
+            <button onclick="addButton()">ADD PLAYER</button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="./jsBai2.js"></script>
+
+</html>
